@@ -2,9 +2,6 @@
 # Find and fix the error
 
 def power(base, exponent):
-    result = 1
-    for i in range(exponent):
-        result *= base
-    return result
+    return base ** exponent
 
 print(f"2^8 = {power(2, 8)}")
