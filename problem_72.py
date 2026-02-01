@@ -14,3 +14,4 @@ def count_case(text):
 sentence = "Hello World"
 u, l = count_case(sentence)
 print(f"Uppercase: {u}, Lowercase: {l}")
+

@@ -1,13 +1,13 @@
 # Problem 62: Convert decimal to binary
 # Find and fix the error
 
-def decimal_to_binary(n):
-    if n == 0:
-        return "0"
-    binary = ""
-    while n > 0:
-        binary = str(n % 2) + binary
-        n = n / 2
-    return binary
+def find_pairs(arr, target):
+    pairs = []
+    for i in range(len(arr)):
+        for j in range(i + 1, len(arr)):  # start from i+1
+            if arr[i] + arr[j] == target:
+                pairs.append((arr[i], arr[j]))
+    return pairs
 
-print(f"Binary of 10: {decimal_to_binary(10)}")
+numbers = [1, 2, 3, 4, 5]
+print(f"Pairs with sum 5: {find_pairs(numbers, 5)}")

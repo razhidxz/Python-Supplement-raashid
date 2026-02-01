@@ -11,3 +11,4 @@ def count_consonants(text):
 
 sentence = "Hello World"
 print(f"Number of consonants: {count_consonants(sentence)}")
+

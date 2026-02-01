@@ -15,3 +15,4 @@ def max_difference(arr):
 
 numbers = [7, 1, 5, 3, 6, 4]
 print(f"Max difference: {max_difference(numbers)}")
+

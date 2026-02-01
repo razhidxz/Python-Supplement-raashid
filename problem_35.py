@@ -9,3 +9,4 @@ marks = 45
 total_marks = 50
 result = calculate_percentage(marks, total_marks)
 print(f"Percentage: {result}%")
+

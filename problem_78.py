@@ -5,7 +5,7 @@ def find_duplicates(lst):
     seen = set()
     duplicates = []
     for item in lst:
-        if item in seen:
+        if item in seen and item not in duplicates:
             duplicates.append(item)
         seen.add(item)
     return duplicates

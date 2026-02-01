@@ -8,3 +8,4 @@ def fahrenheit_to_celsius(fahrenheit):
 temp_f = 98.6
 temp_c = fahrenheit_to_celsius(temp_f)
 print(f"{temp_f}°F = {temp_c}°C")
+

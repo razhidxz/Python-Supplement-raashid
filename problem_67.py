@@ -9,3 +9,4 @@ def remove_nth(lst, n):
 numbers = [1, 2, 3, 4, 5]
 result = remove_nth(numbers, 2)
 print(f"After removing: {result}")
+

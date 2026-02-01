@@ -11,3 +11,4 @@ def has_duplicates(lst):
 
 numbers = [1, 2, 3, 4, 5]
 print(f"Has duplicates: {has_duplicates(numbers)}")
+

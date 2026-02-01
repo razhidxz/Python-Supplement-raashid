@@ -11,6 +11,7 @@ def merge_sorted(list1, list2):
         else:
             merged.append(list2[j])
             j += 1
+    # append any remaining elements
     merged.extend(list1[i:])
     merged.extend(list2[j:])
     return merged

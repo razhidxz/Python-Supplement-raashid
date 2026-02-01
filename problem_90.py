@@ -2,13 +2,7 @@
 # Find and fix the error
 
 def find_median(lst):
-    sorted_lst = sorted(lst)
-    n = len(sorted_lst)
-    if n % 2 == 0:
-        median = (sorted_lst[n//2] + sorted_lst[n//2 - 1]) / 2
-    else:
-        median = sorted_lst[n//2]
-    return median
-
-numbers = [1, 3, 5, 7, 9]
-print(f"Median: {find_median(numbers)}")
+    lst = sorted(lst)
+    n = len(lst)
+    mid = n // 2
+    return (lst[mid] + lst[-mid-1]) / 2 if n % 2 == 0 else lst[mid]

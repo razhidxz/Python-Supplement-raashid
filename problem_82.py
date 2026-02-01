@@ -10,3 +10,4 @@ def remove_adjacent_duplicates(text):
 
 s = "programming"
 print(f"After removal: {remove_adjacent_duplicates(s)}")
+
